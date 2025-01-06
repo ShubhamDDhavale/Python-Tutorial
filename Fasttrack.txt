@@ -1,0 +1,164 @@
+Day 1: Python Fundamentals Refresher
+Objectives:
+Understand variables, data types, conditionals, loops, functions, and file handling.
+Topics:
+Python syntax and IDE setup.
+Data structures: lists, dictionaries, tuples.
+Writing reusable functions.
+Input/output operations.
+Practice:
+Create a small program to read, process, and write data to a file.
+Outcome: Confidence in Python basics.
+
+
+Day 2: Introduction to Web Development with Flask
+Objectives:
+Set up Flask for lightweight web applications.
+Topics:
+Installing Flask.
+Basic Flask application structure.
+Creating routes and views.
+Practice:
+Build a simple “Hello, World!” Flask app with one route.
+Outcome: Understand the fundamentals of serving web pages with Flask.
+
+
+Day 3: HTML, CSS, and Flask Integration
+Objectives:
+Create dynamic web pages with Flask templates.
+Topics:
+Flask templates with Jinja2.
+Using {{ }} and {% %} for dynamic rendering.
+Passing data from Python to HTML.
+Practice:
+Build a simple web app that takes user input and displays it dynamically.
+Outcome: Skills in integrating Python backend with frontend.
+
+
+Day 4: Handling Forms and User Input
+Objectives:
+Learn how to handle GET and POST requests in Flask.
+Topics:
+Flask request object.
+Building forms in HTML.
+Validating and processing user input.
+Practice:
+Create a contact form with basic validation.
+Outcome: Ability to handle user input in a web application.
+
+
+Day 5: Setting Up a Database
+Objectives:
+Learn to use databases with Flask.
+Topics:
+Introduction to SQL and SQLite.
+Setting up a database in Flask with SQLAlchemy.
+Performing CRUD operations.
+Practice:
+Build a task manager app (e.g., To-Do list) with SQLite backend.
+Outcome: Know how to persist data in a Flask application.
+
+
+Day 6: Advanced Features and APIs
+Objectives:
+Work with APIs and explore advanced Flask features.
+Topics:
+Consuming external APIs using requests.
+Creating APIs with Flask.
+Understanding Flask Blueprints for modular apps.
+Practice:
+Build a weather app that fetches data from a weather API.
+Outcome: Understand API creation and consumption in Flask.
+
+
+Day 7: Deploy Your Web App
+Objectives:
+Learn to deploy your Flask application.
+Topics:
+Packaging your Flask app.
+Deployment options: PythonAnywhere, Heroku, etc.
+Basics of debugging and logging.
+Practice:
+Deploy your To-Do list or Weather app to the web.
+Outcome: Your web app is live on the internet!
+
+Assignments:
+Day 1: Python Fundamentals Refresher
+Assignment:
+Write a program that:
+Reads a text file containing a list of numbers (one number per line).
+Computes the sum, average, maximum, and minimum of the numbers.
+Writes the results to a new file.
+Create a function that takes a list of integers and returns:
+A list of even numbers.
+A list of numbers greater than 50.
+Bonus: Implement a function to reverse a string and test it with user input.
+
+
+Day 2: Introduction to Web Development with Flask
+Assignment:
+Install Flask and set up a basic project structure.
+Create a Flask app with the following routes:
+/ that displays "Welcome to Flask!"
+/about that displays "This is a simple Flask app."
+/contact that displays your contact details.
+Bonus: Include an additional route /greet/<name> that greets the user dynamically (e.g., "Hello, John!").
+
+
+Day 3: HTML, CSS, and Flask Integration
+Assignment:
+Create an HTML page for the /about route with a description of the app.
+Use Flask templates to pass the following data to the homepage:
+A list of your favorite programming languages.
+A welcome message.
+Design a simple HTML page for the /contact route with a form that collects:
+Name, email, and message.
+Bonus: Add basic CSS to style your pages (e.g., center-align the text or change the background color).
+
+
+Day 4: Handling Forms and User Input
+Assignment:
+Update the contact form created on Day 3:
+Make it functional by processing the form input with POST requests.
+Display a success message when the form is submitted.
+Validate the input to ensure:
+The email address is in a valid format.
+No field is left empty.
+Bonus: Save the form data to a file or display it on a new page.
+
+
+Day 5: Setting Up a Database
+Assignment:
+Create a To-Do List App:
+Use Flask and SQLite to store tasks.
+Features:
+Add a new task.
+View all tasks.
+Mark a task as completed.
+Use SQLAlchemy for database interaction.
+Bonus:
+Add a feature to delete tasks.
+Style the app with CSS to make it visually appealing.
+
+
+Day 6: Advanced Features and APIs
+Assignment:
+Build a Weather App:
+Use the OpenWeatherMap API to fetch weather data.
+Features:
+Input a city name.
+Display the current temperature, weather condition, and humidity.
+Use Flask for routing and templates for rendering.
+Bonus:
+Add error handling for invalid city names.
+Display weather icons based on the weather condition.
+
+
+Day 7: Deploy Your Web App / Revision and problem discussion
+Assignment:
+Deploy your To-Do List App or Weather App:
+Use PythonAnywhere or Heroku.
+Ensure all routes work as expected after deployment.
+Add the following:
+A custom error page for 404 errors.
+Logging to keep track of user activity.
